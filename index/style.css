@@ -1,0 +1,17 @@
+body {
+    background: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-div {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.img-div img {
+    margin: 30px;
+    cursor: pointer;
+}
+.img-div img:hover {
+    transform: scale(1.1);
+}
